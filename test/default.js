@@ -40,7 +40,7 @@
             }});
 
             new QueryCompiler().compile(context).then(() => {
-                assert.equal(`SELECT "*", """""" FROM "doSomethingUseful"( E'''EE\\\\', '1');`, context.sql);
+                assert.equal(`SELECT *, """""" FROM "doSomethingUseful"( E'''EE\\\\', '1')`, context.sql);
                 done();
             }).catch(done);
         });

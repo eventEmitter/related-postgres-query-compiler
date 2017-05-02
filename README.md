@@ -1,5 +1,7 @@
 # related-postgres-query-compiler
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/related-postgres-query-compiler.svg)](https://greenkeeper.io/)
+
 Postgres query compiler infrastructure for the related ORM
 
 
